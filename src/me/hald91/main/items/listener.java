@@ -1,4 +1,4 @@
-package Items;
+package me.hald91.main.items;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Effect;
@@ -14,10 +14,10 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
 import javax.annotation.ParametersAreNonnullByDefault;
-import java.awt.*;
 import java.util.Objects;
 
-public class listener implements Listener{
+public class listener implements Listener {
+
     public boolean onItem(ItemStack I, String Displayname, Material ItemType){
         return (I != null) && (I.hasItemMeta()) && (I.getItemMeta().getDisplayName().equalsIgnoreCase(Displayname)) && (I.getType() == ItemType);
     }

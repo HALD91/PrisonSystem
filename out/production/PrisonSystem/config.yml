@@ -1,0 +1,9 @@
+## Author HALD91
+## Version 1.0.2.1
+
+## Add your own prefix to the Prison System main prefix.
+SystemPrefix: '&7[&6YourPrefix&7]&r'
+
+
+## Add your own prefix to the Guard prison command.
+GuardPrefix: '&7[&3YourPrefix&7]&r'
